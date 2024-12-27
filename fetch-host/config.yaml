@@ -1,0 +1,2 @@
+utcs_username: "goppert"
+ssh_template: "ssh %s@%s.cs.utexas.edu"
