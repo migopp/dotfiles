@@ -3,6 +3,18 @@
 
 return {
 	{
+		"Mofiqul/dracula.nvim",
+		name = "dracula",
+		priority = 1000, -- load this first!
+		-- colorscheme config
+		config = function()
+			require("dracula").setup({
+				transparent_bg = true,
+			})
+			-- load colorscheme here
+			require("dracula").load()
+		end,
+		--[[
 		"neanias/everforest-nvim",
 		name = "everforest",
 		priority = 1000, -- load this first!
@@ -15,5 +27,6 @@ return {
 			-- load colorscheme here
 			require("everforest").load()
 		end,
+		]]
 	},
 }
