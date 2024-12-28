@@ -33,7 +33,7 @@ return {
 			ensure_installed = {
 				"lua_ls",
 				"rust_analyzer",
-				"tsserver",
+				"denols",
 				"gopls",
 			},
 		})
@@ -41,7 +41,6 @@ return {
 		mason_tool_installer.setup({
 			ensure_installed = {
 				"beautysh",
-				"stylua",
 				"clang-format",
 				"gofumpt",
 				"isort",
