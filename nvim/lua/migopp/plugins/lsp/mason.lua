@@ -32,11 +32,15 @@ return {
 			-- list of servers for mason to install
 			ensure_installed = {
 				"lua_ls",
+				"clangd",
 				"rust_analyzer",
+				"zls",
 				"denols",
 				"gopls",
 			},
+			automatic_installation = true,
 		})
+
 
 		mason_tool_installer.setup({
 			ensure_installed = {

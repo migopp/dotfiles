@@ -1,5 +1,4 @@
 theme = MaterialDesignColors
-# theme = gruvbox-material
 background-opacity = 0.9
 font-family = Hurmit Nerd Font Mono
 font-size = 18
