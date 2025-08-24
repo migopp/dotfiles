@@ -1,4 +1,4 @@
-theme = MaterialDesignColors
-background-opacity = 0.9
-font-family = Hurmit Nerd Font Mono
+theme = catppuccin-mocha
+background-opacity = 0.8
+font-family = Mononoki Nerd Font Mono
 font-size = 18
